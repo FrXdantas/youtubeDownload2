@@ -23,5 +23,6 @@ def Download (link):
 
 for x in range(len(lista)):
     link = lista[x]
-    print(f'{x} - {link}')
+    print(f'{x+1} - {link}')
     Download(link)
+print('\nFim da lista de downloads')
